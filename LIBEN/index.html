@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIBEN</title>
+
+    <meta name="title" content="LIBEN " />
+    <meta
+      name="description"
+      content="LIBEN is a company that produce and sell farm products[IRU(locus beans), Yam Flour...]."
+    />
+    <meta name="author" content="Liben Agricultural" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="/img/libenLogo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css"
+      integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Open Graph / Facebook
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+  <meta property="og:title" content="LIBEN — The World's First [Your Project Tagline]" />
+  <meta property="og:description" content="LIBEN is the first-ever [brief description]. Experience something new and revolutionary." />
+  <meta property="og:image" content="https://yourdomain.com/path-to-image.jpg" />
+
+  Twitter
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://yourdomain.com/" />
+  <meta property="twitter:title" content="LIBEN — The World's First [Your Project Tagline]" />
+  <meta property="twitter:description" content="LIBEN is the first-ever [brief description]. Experience something new and revolutionary." />
+  <meta property="twitter:image" content="https://yourdomain.com/path-to-image.jpg" /> -->
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar">
+        <div class="logo"><span>LI</span>BEN</div>
+        <div class="search">
+          <form action="#" class="searchForm">
+            <label for="search-input" class="hide-label">Search Product</label>
+            <div class="searchInput">
+              <input
+                type="text"
+                id="search-input"
+                name="search-input"
+                placeholder="search product"
+                aria-label="search-product"
+              />
+            </div>
+            <button type="submit" class="searchBtn" aria-label="Submit Button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <div class="menu-icon">
+          <div class="cart">
+            <div class="circle"></div>
+            <i class="fa-solid fa-cart-shopping toggleCart"></i>
+          </div>
+          <div class="bars">
+            <i class="fa-solid fa-bars" id="toggle"></i>
+          </div>
+        </div>
+        <ul id="main-nav" class="">
+          <li><a href="/" >Home</a></li>
+          <li><a href="/about.html" target="_blank" rel="noopener noreferrer" >About US</a></li>
+          <li><a href="index.html#contact-section" onclick="return false">Contact US</a></li>
+          <li><a href="/" target="_blank" onclick="return false" rel="noopener noreferrer" >Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- //CART -->
+    <div class="carting">
+      <div class="notification">
+        <p style="display: none;">Testing messages.....</p>
+      </div>
+      <div class="cart">
+        <div class="circle"></div>
+        <i class="fa-solid fa-cart-shopping toggleCart"></i>
+      </div>
+    </div>
+
+    <!-- //MAIN -->
+
+    <div class="main-section">
+      <div class="quick-info">
+        <div class="logo">
+          <h3><span>LI</span>BEN</h3>
+          <p>AGRICULTURAL PRODUCTS HUB</p>
+        </div>
+      </div>
+
+      <div class="products" id="product-items">
+        <!-- // DRIED IRU -->
+        <div class="product">          
+          <div class="product-img">
+            <img src="./img/iru100g.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Dried Iru 100g</h3>
+            <p class="product-price">1,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/iru300g.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Dried Iru 300g</h3>
+            <p class="product-price">3,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/iru1kg.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Dried Iru 1kg</h3>
+            <p class="product-price">7,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/iruINA2.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Dried Iru 1.5kg</h3>
+            <p class="product-price">10,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/iruINA.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Dried Iru 3kg</h3>
+            <p class="product-price">20,625</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/iruINA2.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Dried Iru 6kg</h3>
+            <p class="product-price">41,250 </p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/iruINA.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Dried Iru 12.5kg</h3>
+            <p class="product-price">82,500</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/iru25kg.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Dried Iru 25kg</h3>
+            <p class="product-price">165,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/iru50kg.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Dried Iru 50kg</h3>
+            <p class="product-price">330,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+
+        <!-- // UNRIPE PLANTAIN FLOUR -->
+
+
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/upf2kg.jpg" alt="Unripe Plantain Flour Product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Unripe Plantain Flour 2kg</h3>
+            <p class="product-price">9,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/upf12.5kg.jpg" alt="Unripe Plantain Flour Product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Unripe Plantain Flour 12k.5g</h3>
+            <p class="product-price">41,750</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/upf25kg.jpg" alt="Unripe Plantain Flour Product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Unripe Plantain Flour 25kg</h3>
+            <p class="product-price">83,500</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/upf50kg.jpg" alt="Unripe Plantain Flour Product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Unripe Plantain Flour 50kg</h3>
+            <p class="product-price">167,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+        <!-- //POUNDED YAM FLOUR -->
+
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/py2kg.jpg" alt="Pounded Yam Flour Product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Pounded Yam Flour 2kg</h3>
+            <p class="product-price">8,800</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/py12.5kg.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Pounded Yam Flour 12.5kg</h3>
+            <p class="product-price">55,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/py25kg.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Pounded Yam Flour 25kg</h3>
+            <p class="product-price">110,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/py50kg.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">Pounded Yam Flour 50kg</h3>
+            <p class="product-price">220,000</p>
+          </div>
+          <div class="order">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        
+        
+
+        <!-- ////////////////////////////////////  -->
+
+        <div id="no-results">
+          <p>Product not found</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- //CART SECTION -->
+
+    <div class="cart-section">
+      <div class="cartHeader">
+        <div class="header">
+          <i class="fa-solid fa-arrow-left" id="back-home"></i>
+          <h3>CART SUMMARY</h3>
+        </div>
+        <div class="totalItems">
+          <p>CART ITEMS (<span class="circle"></span>)</p>
+        </div>
+      </div>
+      <div class="cartItems">
+        <!-- <div class="cartItem">
+          <div class="product-img">
+            <img src="./img/iru1.jpg" alt="product 1" />
+          </div>
+          <div class="product-details">
+            <h3 class="product-name">sample name</h3>
+            <p class="product-price">sample price</p>
+          </div>
+          <button class="remove-item">Remove</button> 
+        </div>  -->       
+      </div>
+      <div class="orderBtn">    
+        <div class="totalPrice">
+          <h3>Total</h3>
+          <p># <span class="itemsTotalPrice"></span></p>
+        </div>        
+        <button class="buy-now">Buy Now </button>
+      </div>
+      <div id="no-item" >
+        <h1>No Item in your Cart</h1>
+        <a href="index.html#product-items"  class="no-item-btn" rel="noopener noreferrer">Browse Products</a>
+      </div>
+    </div>
+
+    <div id="contact-section">
+      <h1>CONTACT US</h1>
+    </div>
+
+    <div class="alert"></div>
+
+    <!-- //FOOTER -->
+    <div class="footer-container">
+      <div class="one">
+        <div class="logo"><span>LI</span>BEN</div>
+        <div class="links-icon">
+          <a
+            href="https://facebook.com/OguntadeDanielDanny "
+            target="_blank" onclick="return false"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://wa.me/2348161283017"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a
+            href="https://instagram.com/liben_agricultural_hub"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://tiktok.com/@liben.agricultura"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+        </div>
+      </div>
+      <div class="two">
+        <div class="mail">
+          <h3>Have a question or feedback? Reach out below</h3>
+          <a href="mailto:libenagriculturalhub@gmail.com"
+            >libenagriculturalhub@gmail.com</a
+          >
+        </div>
+        <div class="phone">
+          <h3>Give us a call</h3>
+          <a href="tel:+2348161283017" target="_blank" rel="noopener noreferrer"
+            >+2348161283017</a
+          >
+          <a href="tel:+2348143705862" target="_blank" rel="noopener noreferrer"
+            >+2348143705862</a
+          >
+        </div>
+      </div>
+      <div class="resource">
+        <h3>Resource</h3>
+        <div class="resource-links">
+          <a href="/" target="_blank" onclick="return false" rel="noopener noreferrer">Chat with us</a>
+          <a href="/" target="_blank" onclick="return false" rel="noopener noreferrer"
+            >Report a Product</a
+          >
+          <a href="/" target="_blank" onclick="return false" rel="noopener noreferrer"
+            >Return Policy</a
+          >
+          <a href="/" target="_blank" onclick="return false" rel="noopener noreferrer"
+            >Delivary Options</a
+          >
+
+          <a href="/" target="_blank" onclick="return false" rel="noopener noreferrer"
+            >Terms & Conditions</a
+          >
+        </div>
+      </div>
+      <div class="menu">
+        <h3>Menu</h3>
+        <div class="menu-links">
+          <a href="/" target="_blank" onclick="return false" rel="noopener noreferrer">FAQs</a>
+          <a href="/about.html" target="_blank" rel="noopener noreferrer">About Us</a>
+          <a href="/" target="_blank" onclick="return false" rel="noopener noreferrer">Contact Us </a>
+          <a href="/" target="_blank" onclick="return false" rel="noopener noreferrer">Help Center</a>
+          <p id="since?">libenagriculturalhub &copy; 2025</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/buynow.js"></script>
+    <script src="/scripts/cart.js"></script>
+  </body>
+</html>
